@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+  }
+.fa-volleyball{
+    color: #0a66c2;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.ser{
+    border-radius: 15px;
+    padding-right: 110px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 35px;
+    border: solid 1px grey;
+    
+    
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 10px;
+}
+
+.con2 i {
+font-size: 30px;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.con2 i{
+    color: black;
+}
+.com{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    box-shadow: white 6px 6px 6px 6px;
+    box-sizing: border-box;
+    border: 1px white ;
+    background-color: white;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    
+   
+}
+.BUTTON1{
+    border: solid 1px gray;
+    border-radius: 11px;
+    padding: 10px; 
+    margin-right: 10px;
+    padding-right: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+.fa-crown{
+    
+    position:absolute;
+    right: 10px;
+}
+body{
+    background-image: url(./img/2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-position: center;
+    background-size: cover;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tag p{
+    font-size: 10px;
+}
+.box1{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 150px;
+    height: 230px;
+    border-radius: 9px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+.PPL{
+    font-size: 40PX;
+
+}
+.soon{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+   
+}
+.main2{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+justify-content: center;
+gap: 30px;
+margin-top: 20px;
+}
+img{
+    height: 230px;
+    width: 150px;
+    object-fit: contain;
+  object-fit: cover;
+    border-radius: 9px;
+}
+.soon img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50px;
+}
